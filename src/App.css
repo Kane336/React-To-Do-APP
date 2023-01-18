@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #3c87ff;
+}
+
+.main {
+    max-width: 405px;
+    margin: 135px auto;
+    background: #fff;
+    border-radius: 7px;
+}
+
+.heading {
+    padding: 14px 0px;
+    text-align: center;
+}
+
+.input {
+    height: 55px;
+    padding: 0 12px;
+}
+
+.input input {
+    height: 70%;
+    width: 70%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.input button {
+    margin-left: 14px;
+}
+
+.input input::placeholder {
+    color: #bfbfbf;
+    padding-left: 29px;
+    margin-top: 2px;
+}
+
+.task-box{
+    margin: 22px 24px;
+}
+
+.task-box .task{
+    list-style: none;
+    border-bottom: 1.5px solid #ccc;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.task label{
+    display: flex;
+    align-items: start;
+}
+
+.task label input{
+    margin-top: 9px;
+}
+
+.task label p {
+    margin-bottom: 0;
+    margin-left: 12px;
+    font-size: 20px;
+    word-break:normal;
+    width: 172px;
+}
+
+.selected{
+    text-decoration: line-through;
+}
+
+.disableBtn{
+    pointer-events: none;
+    opacity: .65;
+}
+
+.task label del {
+    margin-bottom: 0;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.buttons{
+    margin-bottom: 3px;
+}
+
+.btn-info{
+    margin-right: 5px;
+}
+
+.btn-danger{
+    margin-left: 5px;
+}
